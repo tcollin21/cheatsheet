@@ -1,6 +1,8 @@
 body {
     text-align: center;
     background-image: linear-gradient(to bottom right, darkcyan, aquamarine);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, #overview, p {
@@ -17,8 +19,21 @@ h1 {
     font-weight: bold;
 }
 
+nav {
+    border-radius: 5px;
+    background-color: rgba(65, 105, 225, 0.25);
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
 nav, footer {
     font-size: 30px;
+}
+
+table {
+    margin: auto;
+    width: 75%;
 }
 
 th, td {
