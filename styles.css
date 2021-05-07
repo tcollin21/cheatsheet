@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, darkcyan, aquamarine);
+}
+
+h1, #overview, p {
+    font-family: helvetica;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#overview {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav, footer {
+    font-size: 30px;
+}
+
+th, td {
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+th {
+    color: khaki;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgba(128, 0, 128, 0.25);
+}
+
+td {
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgba(65, 105, 225, 0.25);
+}
+
+a {
+    color: blue;
+}
